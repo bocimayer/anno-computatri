@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or refer to Anno Computatri, please cite the white paper below."
+title: "anno-computatri: converters between CE, Anno Computatri and Unix time"
+abstract: "Anno Computatri (AC) is a calendar that counts years from 1970, the Unix epoch used by Unix, Linux, macOS, Android and iOS, so 1970 CE is year 0 AC. Originated by Gabor Mayer in 2023."
+type: software
+version: 0.1.0
+license: MIT
+url: "https://annocomputatri.net/"
+authors:
+  - family-names: Mayer
+    given-names: Gabor
+preferred-citation:
+  type: report
+  title: "Anno Computatri: A Calendar System for the Digital Age"
+  authors:
+    - family-names: Mayer
+      given-names: Gabor
+  year: 2024
+  month: 12
+  url: "https://annocomputatri.net/white-papers/"
+  notes: "White paper, 20 December 2024. DOI to be added after deposit."

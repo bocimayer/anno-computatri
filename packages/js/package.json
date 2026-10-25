@@ -1,0 +1,39 @@
+{
+  "name": "anno-computatri",
+  "version": "0.1.0",
+  "description": "Convert between Gregorian (CE), Anno Computatri (AC) and Unix time. AC counts years from 1970, the Unix epoch used by Unix, Linux, macOS, Android and iOS, so 1970 CE is year 0 AC.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "ac": "./bin/ac.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "calendar",
+    "anno-computatri",
+    "unix-time",
+    "epoch",
+    "date-conversion"
+  ],
+  "author": "Gabor Mayer",
+  "license": "MIT",
+  "homepage": "https://annocomputatri.net/"
+}

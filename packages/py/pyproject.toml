@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anno-computatri"
+version = "0.1.0"
+description = "Convert between Gregorian (CE), Anno Computatri (AC) and Unix time. AC counts years from 1970, the Unix epoch used by Unix, Linux, macOS, Android and iOS, so 1970 CE is year 0 AC."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Gabor Mayer" }]
+keywords = ["calendar", "anno-computatri", "unix-time", "epoch", "date-conversion"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://annocomputatri.net/"
+
+[project.scripts]
+ac = "anno_computatri.__main__:main_cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
