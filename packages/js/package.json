@@ -12,7 +12,7 @@
     }
   },
   "bin": {
-    "ac": "./bin/ac.js"
+    "ac": "bin/ac.js"
   },
   "files": [
     "src",
